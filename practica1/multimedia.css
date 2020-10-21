@@ -1,0 +1,39 @@
+/*Especificidad 002*/
+div img {
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-right: 5%;
+}
+/*Especificidad 001*/
+img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+}
+/*Especificidad 002*/
+article video {
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    margin: 5% auto;
+}
+/*Especificidad 002*/
+article audio {
+    display: block;
+    margin: 0 auto;
+}
+/*Especificidad 001*/
+ul {
+    list-style-type: none;
+    column-count: 2;
+}
+/*Especificidad 001*/
+li {
+    text-align: center;
+    border: 1px solid;
+    margin: 5%;
+}
