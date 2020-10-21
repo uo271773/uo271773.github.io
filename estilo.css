@@ -22,7 +22,7 @@ h1 {
 /*Especificidad 002*/
 h2, article h2 {
     text-transform: uppercase;
-    font: 600 20px "Stencil Std", fantasy;
+    font: 600 2em "Stencil Std", fantasy;
 }
 /*Especificidad 001*/
 table {
