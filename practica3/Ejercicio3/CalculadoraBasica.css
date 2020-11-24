@@ -19,7 +19,7 @@ form input {
 form div{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 10%;
+    gap: 5%;
     padding: 2%;
 }
 form div input {
