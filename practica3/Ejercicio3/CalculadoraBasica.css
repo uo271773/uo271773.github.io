@@ -6,9 +6,10 @@ form {
     background-color: lightblue;
     border-radius: 3%;
     width: 90%;
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 2%;
+    padding: 1%;
+    padding-bottom: 4%;
     place-content: center;
 }
 form input {
@@ -18,7 +19,7 @@ form input {
 form div{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 3%;
+    gap: 10%;
     padding: 2%;
 }
 form div input {
